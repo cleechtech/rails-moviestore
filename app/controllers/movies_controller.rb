@@ -12,15 +12,6 @@ class MoviesController < ApplicationController
   def show
   end
 
-  # GET /movies/new
-  def new
-    @movie = Movie.new
-  end
-
-  # GET /movies/1/edit
-  def edit
-  end
-
   # POST /movies
   # POST /movies.json
   def create

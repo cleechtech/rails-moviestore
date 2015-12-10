@@ -40,3 +40,5 @@ gem 'spring',        group: :development
 
 gem 'foundation-rails', '5.3'
 
+gem 'devise'
+

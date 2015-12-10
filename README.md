@@ -95,3 +95,15 @@ class Movie < ActiveRecord::Base
   end
 end
 ```
+
+### Add authentication
+
+`gem 'devise'` then `$ bundle install`. Then `$ rails generate devise:install`.
+
+Generate a user model: `$ rails generate devise User`. Then migrate the database `$ rake db:migrate`.
+
+Add to **db/routes.rb**:
+
+```
+devise_for :users, path_names: { sign_in: 'login', sign_out: 'logout', sign_up: 'register' }
+```

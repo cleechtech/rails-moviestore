@@ -42,3 +42,6 @@ gem 'foundation-rails', '5.3'
 
 gem 'devise'
 
+gem 'redis', '~> 3.0.1'
+gem 'hiredis', '~> 0.4.5'
+
